@@ -1,0 +1,39 @@
+.card {
+    width: 400px;
+    padding: 10px;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.card.hasImage img {
+    width: 170px;
+    height: 200px;
+    object-fit: contain;
+    margin: 0 auto;
+    display: block;
+    margin: 0 50px
+}
+
+.card .details {
+    border-radius: 20px;
+    background-color: #434343;
+    margin-top: -100px;
+    padding: 100px 10px 10px 10px;
+   
+}
+
+.card .details p {
+    font-size: .8em;
+    border-top: 1px solid #4b5ff0;
+    padding-top: 10px;
+    height: 3.5em;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.card footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: .8em;
+    border-top: 1px solid #353535;
+}
